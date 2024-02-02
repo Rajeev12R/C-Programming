@@ -14,5 +14,8 @@ int main(){
     // pionter address
     printf("%u\n",&ptr);
 
+    // pionter value in that address
+    printf("%d\n",*ptr);
+
     return 0;
 }
