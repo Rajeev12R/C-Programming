@@ -10,10 +10,11 @@ int main(){
     printf("Enter Sanskrit marks: ");
     scanf("%f",&sans);
 
-    float p=((sci+math+sans)/300)*100;
-    printf("%.2f",p);
+    printf("Percentage %.2f",Percentage(sci, math, sans));
+    return 0;
 }
 float Percentage(float sci, float math, float sans){
     return ((sci+math+sans)/300)*100;
 }
+
 
