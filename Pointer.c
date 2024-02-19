@@ -11,10 +11,10 @@ int main(){
 
     printf("%u\n",ptr);
 
-    // pionter address
+    // pointer address
     printf("%u\n",&ptr);
 
-    // pionter value in that address
+    // pointer value in that address
     printf("%d\n",*ptr);
 
     return 0;
